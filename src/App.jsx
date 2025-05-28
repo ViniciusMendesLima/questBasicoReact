@@ -3,7 +3,7 @@ import Text from "./components/text/text";
 function App() {
   return (
     <>
-      <Text />
+      <Text content='Lorem ipsum dolor sit amet consectetur adipisicing elit.' color='red' textTransform='uppercase'/>
     </>
   );
 }

@@ -1,13 +1,15 @@
 import "./text.css";
 
-const Text = () => {
+const Text = (props) => {
   return (
-    <p className="text">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint unde ducimus
-      accusantium ipsam, magni repellat in natus odio ut fugiat obcaecati
-      exercitationem omnis dicta quo quis vero iusto necessitatibus praesentium!
-    </p>
+    <p className="text" style={{color: props.color, textTransform:props.textTransform}}>{props.content}</p>
   );
 };
+
+// class Text extends React.Component {
+//   render() {
+//     return <p className="text">{this.props.content}</p>;
+//   }
+// }
 
 export default Text;
