@@ -1,15 +1,26 @@
 import "./text.css";
 
-const Text = (props) => {
+const Text = ({
+  label = "Padrão",
+  color = "red",
+  textTransform = "uppercase",
+  backColor = "orange",
+}) => {
   return (
-    <p className="text" style={{color: props.color, textTransform:props.textTransform}}>{props.content}</p>
+    <button
+      className="text"
+      style={{
+        color,
+        textTransform,
+        backgroundColor: backColor,
+      }}
+      onClick={() => {
+        alert(`O label desse botão é ${label}`);
+      }}
+    >
+      {label}
+    </button>
   );
 };
-
-// class Text extends React.Component {
-//   render() {
-//     return <p className="text">{this.props.content}</p>;
-//   }
-// }
 
 export default Text;

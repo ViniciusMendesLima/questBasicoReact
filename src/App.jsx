@@ -1,9 +1,11 @@
-import "./App.css";
 import Text from "./components/text/text";
 function App() {
   return (
     <>
-      <Text content='Lorem ipsum dolor sit amet consectetur adipisicing elit.' color='red' textTransform='uppercase'/>
+      <Text label='Texto 1'/>
+      <Text />
+      <Text label='Texto 2' color='blue'/>
+      <Text label='Texto 3' color='green'/>
     </>
   );
 }

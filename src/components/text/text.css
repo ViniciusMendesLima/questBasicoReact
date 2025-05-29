@@ -1,3 +1,9 @@
-/* .text{
-    text-transform:uppercase;
-} */
+.text{
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    cursor: pointer;
+}
