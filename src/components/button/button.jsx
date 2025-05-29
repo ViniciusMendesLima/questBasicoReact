@@ -1,6 +1,6 @@
-import "./text.css";
+import "./button.css";
 
-const Text = ({
+const Button = ({
   label = "Padrão",
   color = "red",
   textTransform = "uppercase",
@@ -8,7 +8,7 @@ const Text = ({
 }) => {
   return (
     <button
-      className="text"
+      className="btn"
       style={{
         color,
         textTransform,
@@ -23,4 +23,4 @@ const Text = ({
   );
 };
 
-export default Text;
+export default Button;

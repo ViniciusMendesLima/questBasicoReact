@@ -1,9 +1,8 @@
-.text{
+.btn{
     width: 200px;
-    text-align: center;
     padding: 10px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     margin: 5px;
     cursor: pointer;
 }
