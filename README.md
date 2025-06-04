@@ -5,6 +5,8 @@ Ao clicar no botão, será exibido um alerta com uma mensagem.
 
 ## Inicie o servidor de desenvolvimento:
 
+npm install
+
 npm run dev
 
 ## 📦 Tecnologias utilizadas
