@@ -1,11 +1,11 @@
-import Button from "./components/button/button";
+import AlertButton from "./components/AlertButton/index";
 function App() {
   return (
     <>
-      <Button label='Texto 1'/>
-      <Button />
-      <Button label='Texto 2' color='blue'/>
-      <Button label='Texto 3' color='green'/>
+      <AlertButton label='Texto 1'/>
+      <AlertButton />
+      <AlertButton label='Texto 2' color='blue'/>
+      <AlertButton label='Texto 3' color='green'/>
     </>
   );
 }
